@@ -1,0 +1,33 @@
+{
+  "name": "mfe2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@apollo/client": "^3.13.8",
+    "graphql": "^16.11.0",
+    "html-webpack-plugin": "^5.6.3",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-native": "^0.80.2",
+    "react-native-web": "^0.21.0",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "ui-kit": "file:../ui-kit",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7",
+    "webpack": "^5.101.0"
+  }
+}

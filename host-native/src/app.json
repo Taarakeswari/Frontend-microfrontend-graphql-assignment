@@ -1,0 +1,11 @@
+{
+  "name": "raft-labs-assignment",  // Name of the app
+  "displayName": "Raft Labs  Assignment",  // Displayed in app stores
+  "expo": {
+    "platforms": ["ios", "android", "web"]  // Specify that app is cross-platform (iOS, Android, Web)
+  },
+  "platforms": ["web", "ios", "android"],  // Supported platforms
+  "assetBundlePatterns": [
+    "**/*"  // Bundle all assets
+  ]
+}

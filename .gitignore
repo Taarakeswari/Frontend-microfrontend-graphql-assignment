@@ -1,0 +1,12 @@
+# Ignore node_modules
+node_modules/
+
+# Common ignores
+dist/
+build/
+*.log
+.env
+.DS_Store
+.cache/
+coverage/
+**/node_modules/
